@@ -10,7 +10,7 @@
 -inicio proyecto.
 -Entorno,celda,entidad,obstaculo,Posicion,Direccion
 
-10/03/2026
+09/03/2026
 -movimientos en las 4 direcciones
 -manejo de coliciones solo con un sys.out (diferenciadas para si es ente-ente o ente-obstaculo)
 -Las entidades verifican que no haya osbtaculo u otra entidad antes de moverse, en tal caso el movimeinto se anula.

@@ -1,4 +1,7 @@
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Entorno {
     private int alto,ancho;
     private Celda mapa[][];
@@ -38,7 +41,15 @@ class Entorno {
         return mapa;
     }
 
-    
-
-    
+    public List<Entidad> getEntidades() {
+        List<Entidad> entidades = new ArrayList<>();
+        for (int i = 0; i < ancho; i++) {
+            for (int y = 0; y < alto; y++) {
+                if (mapa[i][y].getOcupante() != null) {
+                    entidades.add(mapa[i][y].getOcupante());
+                }
+            }
+        }
+        return entidades;
+    }
 }
