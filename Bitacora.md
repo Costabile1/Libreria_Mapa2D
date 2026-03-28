@@ -23,3 +23,10 @@
 -clase AnalisisDatos
 -`Clase AnalisisDatos que guarde todo las actividades realizadas por los entes y coliciones`
 -`movimiento random si no se puede mover en la direccion indicada`
+
+27/03/2026
+-Instale jdk javafx
+-agrege todos los archivos lib/ del jdk javafx, a la carpeta lib/ del este proyecto
+-cambie launch.json agregando el vmArgs con la direcion al lib/ del javafx
+-la clase App crea un recuadro y pone hola
+-`Vscode aun sigue sin reconocer javafx por mas que el codgio funciona`
