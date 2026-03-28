@@ -7,7 +7,3 @@ bin/
 javafx-sdk-*/
 lib/
 
-# OPCIONAL: Ignorar configuraciones personales de VS Code
-.vscode/
-*.lauch.json
-*.settings.json
