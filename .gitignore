@@ -1,0 +1,13 @@
+# Ignorar archivos compilados
+bin/
+*.class
+
+# Ignorar el SDK de JavaFX (si lo tienes dentro del proyecto)
+# Es mejor que cada uno lo descargue por separado
+javafx-sdk-*/
+lib/
+
+# OPCIONAL: Ignorar configuraciones personales de VS Code
+.vscode/
+*.lauch.json
+*.settings.json
